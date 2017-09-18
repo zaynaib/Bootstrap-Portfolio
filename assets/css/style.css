@@ -3,11 +3,32 @@
 About Page Style
 
 ===========================*/
+body{
+	background-image: url("../images/whirlpool.png");
+}
+
+nav{
+	background-color:#fff;
+}
 #socialMedia img{
 	width:50px;
 }
 
 
+footer{
+
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-color:#4aaaa5;;
+	clear:both;
+	background-color:#999;
+	color:white;
+	/*height:50px;*/
+	padding-top:25px;
+	text-align:center;
+	font-size:18px;
+	min-height: calc(10vh - 2em);
+}
 .ml-5 {
     margin-left: 10rem!important;
 }
