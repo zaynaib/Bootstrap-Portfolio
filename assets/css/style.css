@@ -4,9 +4,13 @@ About Page Style
 
 ===========================*/
 #socialMedia img{
-	width:20px;
+	width:50px;
 }
 
+
+.ml-5 {
+    margin-left: 10rem!important;
+}
 
 /*==========================
 
