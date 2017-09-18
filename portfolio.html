@@ -10,11 +10,13 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   </head>
   <body>
-     <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-      <h1 class="navbar-brand" href="#">Zaynaib Giwa</h1>
+    <header class="pb-2 mb-4">
+      <h1 class="display-4 float-left" href="#">Zaynaib Giwa</h1>
+
+     <nav class="navbar navbar-expand-lg mb-4 justify-content-end">
   
 
-        <ul class="nav justify-content-end">
+        <ul class="nav">
           <li class="nav-item active ">
             <a class="nav-link" href="index.html">About </a>
           </li>
@@ -28,20 +30,27 @@
    
   
       </nav>
-<div class="container">
+    </header>
+<div class="container" id="wrapper">
+  <div class="container d-inline-block" id="content">
   <div class="row">
-    <div class="col">
+    <div class="col-md-4 col-sm-12">
       <figure class="image">
           <img id="img1" src="assets/images/cricket.jpg">
           <figcaption><span>Twlight</span></figcaption>
         </figure>
-
+      </div>
+      
+      <div class="col-md-4 col-sm-12">
         <figure class="image">
           <img id="img2" src="assets/images/baseball.jpg">
           <figcaption><span>Pinky Pie</span></figcaption>
         </figure>
     </div>
-    <div class="col">
+
+<!--
+    
+    <div class="col-3">
       <h2>Connect with Me</h2>
           <hr>
           <ul id="socialMedia" class="nav mx-auto">
@@ -50,30 +59,55 @@
             <li><a target="_blank" href="https://stackoverflow.com/users/3426338/zaynaib-giwa?tab=profile"><img src="assets/images/stackoverflow.png"></a></li>
          </ul>
     </div>
+  -->
+  
   </div>
 
   <div class="row">
+    <div class="col-md-4 col-sm-12">
     <figure class="image">
           <img id="img3" src="assets/images/oldPerson.jpg">
           <figcaption><span>Apple Jack</span></figcaption>
         </figure>
+      </div>
 
+      <div class="col-md-4 col-sm-12">
         <figure class="image">
           <img id="img4" src="assets/images/surfing.jpg">
           <figcaption><span>ShutterFly</span></figcaption>
         </figure>
-
+      </div>
+  
   </div>
 
   <div class="row">
+    <div class="col-md-4 col-sm-12">
+      <figure class="image">
       <img id="img5" src="assets/images/lastImage.jpg">
           <figcaption><span>Rarity</span></figcaption>
         </figure>
+      </div>
 
   </div>
+</div> <!-- end of content container -->
 
-</div>
-      <footer > &copy; Copyright 2016 Zaynaib Giwa </footer>
+
+  <aside class="col-md-3 col-sm-12">
+    <div>
+      <h2>Connect with Me</h2>
+          <hr>
+          <ul id="socialMedia" class="nav mx-auto">
+            <li><a target="_blank" href="https://github.com/zaynaib"><img  src="assets/images/github.png"></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/in/zaynaib-ola-giwa-a5014a4b/"><img src="assets/images/linkedin.png"></a></li>
+            <li><a target="_blank" href="https://stackoverflow.com/users/3426338/zaynaib-giwa?tab=profile"><img src="assets/images/stackoverflow.png"></a></li>
+         </ul>
+    </div>
+
+  </aside>
+
+
+</div> <!-- end of wrapper container">-->
+      <footer class="footer fixed-bottom"> &copy; Copyright 2016 Zaynaib Giwa </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
