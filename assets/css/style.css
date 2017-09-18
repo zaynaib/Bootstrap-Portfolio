@@ -11,8 +11,22 @@ header{
 	background-color:#fff;
 
 }
+
+h1{
+	background-color:#4aaaa5;
+	color:#fff;
+}
 #socialMedia img{
 	width:50px;
+}
+
+a{
+	font-size: 20px;
+	color:#4aaaa5;
+}
+
+a:hover{
+	color:#FF7869;
 }
 
 
@@ -27,13 +41,7 @@ footer{
 	text-align:center;
 	font-size:18px;
 
-	/*height:50px;
-	clear:both;
-	padding-top:25px;
-	text-align:center;
-	font-size:18px;
-	min-height: calc(10vh - 2em);
-	*/
+
 }
 .image img {
     width:350px;
@@ -61,27 +69,3 @@ figcaption{
 
 }
 
-/*==========================
-
-Contact Page Style
-
-===========================*/
-
-
-
-/*==========================
-
-Gallery Page Style
-
-===========================*/
-
-
-/*=======================
-Media Queries
-=======================*/
-
-@media (min-width: 980px) { ... }
-
-@media (min-width: 768px) { ... }
-
-@media (min-width: 640px) { ... }
