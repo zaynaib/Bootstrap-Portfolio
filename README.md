@@ -1,1 +1,6 @@
-bootstrapPlayground repo was created in order for me to test and learn how to use bootstrap before added any final commits to my second homework assignment.
+# Bootstrap Portfolio
+
+Another version of the Basic Portfolio using css framework Bootstrap version 3.
+
+
+[Documentation for Bootstrap](https://getbootstrap.com/)
